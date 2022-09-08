@@ -1,0 +1,52 @@
+<DOCTYPE html!>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Certification Project</title>
+        <link rel="stylesheet" href="Project.css">
+    </head>
+    <body>
+        <h1 id="title">Azolad Constructions Survey form</h1>
+        <p id="description">Thank you for taking the time to help us improve the platform</p>
+        <form id="Survey-form" action="https://register-demo.freecodecamp.org">
+            <div class="form">
+            <fieldset>
+                <label>Name <input type="text" name="first-name" placeholder="Enter your name" required></label>
+                <label>Email <input type="text" name="Email" placeholder="Enter your Email" required></label>
+                <label>Age (optional)<input type="text" name="Age" placeholder="Age" required></label>
+                <label>Which Role are you applying for<input type="text" name="role" placeholder="Enter your desired role"></label>
+            </fieldset>
+            <fieldset>
+            <label>Would you recommend Azolad Constructions to a friend</label>
+            <label><input type="radio" name="account-type" class="inline" /> Yes</label>
+            <label><input type="radio" name="account-type" class="inline" /> No</label>
+            <label><input type="radio" name="account-type" class="inline" /> Not sure</label>
+            <label>What is your favorite thing about Azolad Constructions
+          <select name="favorite">
+            <option value="">Reliabilty</option>
+            <option value="1">Pace</option>
+            <option value="2">Effectiveness</option>
+            <option value="3">Good comunication</option>
+            <option value="4">Other</option>
+          </select>
+        </label>
+            </fieldset>
+            <fieldset>
+                <label>What Would you like to see improved:</label>
+                <label><input type="checkbox" name="Improvement" class="inline">Effectiveness</label>
+                <label><input type="checkbox" name="Improvement" class="inline">Pay</label>
+                <label><input type="checkbox" name="Improvement" class="inline">Class of Workers</label>
+                <label><input type="checkbox" name="Improvement" class="inline">Provsion of Equipments</label>
+                <label><input type="checkbox" name="Improvement" class="inline">Upgeaded Machinery</label>
+                <label><input type="checkbox" name="Improvement" class="inline">Skilled workers</label>
+                <label><input type="checkbox" name="Improvement" class="inline">Others</label>
+            <label>Any Comments or Suggestion?
+                <textarea name="bio" rows="3" cols="30" placeholder="Enter Your Comment here..."></textarea>
+            </label>
+            </label>
+                </fieldset>
+                <input type="submit" value="Submit" />
+        </form>
+        </div>
+    </body>
+</html>
